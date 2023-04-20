@@ -1,0 +1,29 @@
+body {
+    background: #131313;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btn {
+    padding: 0.8rem 2.8rem;
+    background: transparent;
+    color: #ff671c;
+    border: 2px solid #ff671c;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-7px);
+    color: #ffd60a;
+    border-color: #ffd60a;
+    box-shadow: 0 5px 8px #fedd34;
+}
